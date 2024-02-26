@@ -1,30 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>LORAX</title>
-    </head>
-    <body>
-        <section>
-            <div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lorax Inc. - Sustainable Shoes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Lorax Inc.</h1>
+            <nav>
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="shop.html">Shop</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="contact.html">Contact Us</a></li>
-                    <li><a href="cart.html">Cart</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <button id="signInButton" class="btnLight">Sign In</button>
+                    <li id="message"><p>Welcome <span id="userName"></span>!</p></li>
+                    <button id="signOutButton" class="btnLight">Sign Out</button>
                 </ul>
-            </div>
-        </section>
-
-        <section>
-            <h2>Shoes for every occasion</h2>
-            <h1>Offers on all products</h1>
-            <p>Save more with cupons - upto 70% off!!!</p>
-            <button>Shop now</button>
-        </section>
-        
-        <section id="feature">
-            <div class="fe-box"></div>
-        </section>
-    </body>
+            </nav>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="container">
+            <h2>Sustainable Shoes for a Better Tomorrow</h2>
+            <p>Explore our collection of eco-friendly shoes made with recycled materials.</p>
+            <a href="#" class="btnDark">Shop Now</a>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Lorax Inc. All Rights Reserved.</p>
+        </div>
+    </footer>
+    <script type="module" src="app.js"></script>
+</body>
 </html>
